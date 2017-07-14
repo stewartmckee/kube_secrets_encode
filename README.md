@@ -1,28 +1,37 @@
 # KubeSecretsEncode
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/kube_secrets_encode`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This gem is a quick script to encode and decode secrets in a kubernetes yaml file.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'kube_secrets_encode'
+```bash
+gem install kube_secrets_encode
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install kube_secrets_encode
 
 ## Usage
 
-TODO: Write usage instructions here
+The command line to run is as follows
+
+```
+kube_secrets filename
+```
+
+This will encode the secrets in the file specified and render the result to screen.
+
+### Options
+
+#### --decode
+
+This will perform the reverse of encode
+
+```
+kube_secrets filename --decode
+```
+
+
+#### --yes
+
+By default no action is taken on the file you specify other than reading its contents, if you specify --yes, it will write the result shown on screen to the file.
 
 ## Development
 
@@ -32,7 +41,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/kube_secrets_encode. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/stewartmckee/kube_secrets_encode. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -40,4 +49,4 @@ The gem is available as open source under the terms of the [MIT License](http://
 
 ## Code of Conduct
 
-Everyone interacting in the KubeSecretsEncode project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/kube_secrets_encode/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the KubeSecretsEncode project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/stewartmckee/kube_secrets_encode/blob/master/CODE_OF_CONDUCT.md).
