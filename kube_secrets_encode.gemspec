@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Stewart McKee"]
   spec.email         = ["stewart@theizone.co.uk"]
 
-  spec.summary       = "Simple tool for encoding and decoding kubernetes secrets"
-  spec.description   = "Simple tool for encoding and decoding kubernetes secrets"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "kube_secrets enables you to encode and decode the base64 encoding of secrets in place within your config files making it easier to modify them."
+  spec.description   = "kube_secrets enables you to encode and decode the base64 encoding of secrets in place within your config files making it easier to modify them."
+  spec.homepage      = "https://github.com/stewartmckee/kube_secrets_encode"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|

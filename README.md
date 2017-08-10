@@ -13,7 +13,7 @@ gem install kube_secrets_encode
 The command line to run is as follows
 
 ```
-kube_secrets filename
+kube_secrets --file=filename
 ```
 
 This will encode the secrets in the file specified and render the result to screen.
@@ -25,7 +25,7 @@ This will encode the secrets in the file specified and render the result to scre
 This will perform the reverse of encode
 
 ```
-kube_secrets filename --decode
+kube_secrets --file=filename --decode
 ```
 
 
