@@ -1,9 +1,5 @@
 # KubeSecretsEncode
 
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/Qr2oGXuncPZ4SKa8ABiA3QZn/stewartmckee/kube_secrets_encode'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/Qr2oGXuncPZ4SKa8ABiA3QZn/stewartmckee/kube_secrets_encode.svg' />
-</a>
-
 This gem is a quick script to encode and decode secrets in a kubernetes yaml file.
 
 ## Installation
